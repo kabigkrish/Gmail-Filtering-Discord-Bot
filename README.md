@@ -1,11 +1,10 @@
 # Gmail-Filtering-Discord-Bot
 
+### This project uses GMAIL api. 
 #
 step1: creating credentials https://developers.google.com/workspace/guides/getstarted-overview 
 #
-
 step 2:  run `pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
-`
 #
 step 3: In your working directory, create a file named `quickstart.py`.
 #
@@ -64,7 +63,7 @@ step 5: Run quickstart.py
 
 if you have any problem executing the quickstart file you can troubleshoot using this link
  https://developers.google.com/gmail/api/quickstart/python#trouble
-
+---
 Reference links:
 1. https://developers.google.com/gmail/api/guides 
  
