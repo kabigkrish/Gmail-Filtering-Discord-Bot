@@ -140,7 +140,7 @@ def get_service():
     return service
 def job(previous_msg_id): 
     service=get_service()
-    user_id='kabigkrish@gmail.com'
+    user_id='me'
     search_string='Electronics'+' '+'&'+' '+'Communication'
     msg_ids=search_message(service,user_id,search_string)
     if(msg_ids[0]!=previous_msg_id):
